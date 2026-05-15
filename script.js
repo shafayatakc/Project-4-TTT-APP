@@ -103,6 +103,7 @@ function reset() {
     document.getElementById("wpm").textContent = "0";
     document.getElementById("error-count").textContent = "0";
     setRandomText(); 
+    testArea.focus();
 }
 // Event listeners for keyboard input and the reset button:
 
